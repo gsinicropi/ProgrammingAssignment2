@@ -1,8 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 # R Programming
 ## Programming Assignment 2: Lexical Scoping
 ## Assignment: Caching the Inverse of a Matrix
@@ -12,6 +7,13 @@
 ## to write an R function is able to cache potentially time-consuming computations.
 
 ## Assignment: Caching the Inverse of a Matrix
+
+## Put comments here that give an overall description of what your
+## functions do
+
+## makeCacheMatrix <- function(x = matrix()) {
+
+## Write a short comment describing this function
 
 ## Matrix inversion is usually a costly computation and their 
 ## may be some benefit to caching the inverse of a matrix rather than compute it repeatedly
@@ -42,9 +44,8 @@ makeCacheMatrix <- function(x = matrix()) {
        getInverse = getInverse)
 }
 
+## cacheSolve <- function(x, ...) {
 ## Write a short comment describing this function
-
-
 ## cacheSolve: This function computes the inverse of the special "matrix" 
 ## returned by makeCacheMatrix above. If the inverse has already been calculated 
 ## (and the matrix has not changed), then the cachesolve should retrieve 
